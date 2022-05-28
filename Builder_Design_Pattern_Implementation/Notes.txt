@@ -1,0 +1,33 @@
+﻿=>	Business Requirement : Provide an option to choose and build configuration of the system which is allocated 
+	to the employees. The configuration options that user can choose are RAM, HDD, USB Mouse etc. Choose the 
+	system configurations based on the computer type that we need to build. For example, A laptop users can 
+	choose touch screen and the desktop users can configure keyboard and mouse.
+
+	Folder structure
+=> Product: Build the computer system class.
+=> IBuilder: Which holdes the interface related the builder design pattern 
+=> ISystemBuilder inteface main purpose is to build the system step by step process and finally it should returns the object
+	once it will build 
+
+
+=> LaptopBuilder : Purpose of LaptopBuilder to build the System configuration and returns the computer system 
+	which is being build.
+
+=> DesktopBuilder : Purpose of LaptopBuilder to build the System configuration and returns the computer system 
+	which is being build.
+
+=>  Director: Create a another class which control the way Builder is executed. In some situations building a product to follows
+	specific steps and class that direct specific way of creation is called Director. 
+	Here ISystemBuilder is a interface which represents laptop builder and desktop builder at run time.
+	NameValueCollection configuration choosen these concrete builder classes from the frontent.
+
+=> Frontent @using(HTML.BeginForm("BuildLaptop",Employee,FormMethod.Post){ } || @Html.BeginForm("BuildDesktop",Employee,FormMethod.Post)){}
+=> Instead of 2 views we can use PartialView also and embaed it.
+
+=>	If you look at the illustrated diagram of Builder Design Pattern
+	1.	Builder : Defines a template for the steps to construct the product. To simplify, 
+		Builder Specifies an abstract interface for creating parts of a Product object.
+	2.	Concrete Builder : Implements the builder interface and provides an interface for getting the product. 
+	3.	Director : Is responsible to constructs the object through the builder interface.
+	4.	Product : is the Main object that's constructed and Represents the complex object.
+
