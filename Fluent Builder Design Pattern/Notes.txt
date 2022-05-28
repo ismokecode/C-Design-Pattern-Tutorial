@@ -1,0 +1,30 @@
+﻿
+=>	Fluent Interface : The idea behind a fluent interface is that one can apply multiple properties
+	to an object by connecting them with dots and without having to re-specify the object each time
+
+	C# uses fluent programming extensively in LINQ to build queries using the standard query operators.
+	The implementation is based on extension methods
+
+	Fluent Interface Features : Fluent interface is a method for constructing object oriented APIs, 
+	where the readability of the source code is close to that of ordinary written prose
+
+	Fluent interface is normally implemented by using method cascading (concretely method chaining)
+
+	Fluent code is much more readable and allows to vary a product’s internal representation
+
+	Fluent Encapsulates code for construction and representation and Provides control over steps 
+	of an object construction process
+
+	Searching, Sorting, pagination, grouping with a blend of LINQ are some of the real world usage of 
+	fluent interface in combination with builder design pattern.
+
+	However, it’s not mandatory to implement fluent interfaces with builder design pattern however, 
+	the idea of this session is explore and integrate the fluent interface with builder design pattern.
+	
+	=> Ex
+	var filtered = transaction.where(t => t.Key.Contains("a"));
+	var sorted = filtered.OrderBy(t=>t.Value.Length);
+	var final = sorted.Select(t=>t.Value.ToUpper())
+
+	Similar things using fluent design patterns
+	var filtered = transaction.where(t => t.Key.Contains("a")).OrderBy(t=>t.valueLength).Select(t=>t.value.ToUpper());

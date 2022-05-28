@@ -1,0 +1,14 @@
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\obj\Debug\netcoreapp3.1\Fluent Builder Design Pattern.csproj.AssemblyReference.cache
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\obj\Debug\netcoreapp3.1\Fluent Builder Design Pattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\obj\Debug\netcoreapp3.1\Fluent Builder Design Pattern.AssemblyInfoInputs.cache
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\obj\Debug\netcoreapp3.1\Fluent Builder Design Pattern.AssemblyInfo.cs
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\obj\Debug\netcoreapp3.1\Fluent Builder Design Pattern.csproj.CoreCompileInputs.cache
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\bin\Debug\netcoreapp3.1\Fluent Builder Design Pattern.exe
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\bin\Debug\netcoreapp3.1\Fluent Builder Design Pattern.deps.json
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\bin\Debug\netcoreapp3.1\Fluent Builder Design Pattern.runtimeconfig.json
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\bin\Debug\netcoreapp3.1\Fluent Builder Design Pattern.runtimeconfig.dev.json
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\bin\Debug\netcoreapp3.1\Fluent Builder Design Pattern.dll
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\bin\Debug\netcoreapp3.1\Fluent Builder Design Pattern.pdb
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\obj\Debug\netcoreapp3.1\Fluent Builder Design Pattern.dll
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\obj\Debug\netcoreapp3.1\Fluent Builder Design Pattern.pdb
+D:\Study\Design pattern\Fluent Builder Design Pattern\Fluent Builder Design Pattern\obj\Debug\netcoreapp3.1\Fluent Builder Design Pattern.genruntimeconfig.cache
