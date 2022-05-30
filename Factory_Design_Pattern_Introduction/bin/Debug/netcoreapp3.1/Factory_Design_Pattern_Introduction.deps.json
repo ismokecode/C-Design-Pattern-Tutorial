@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Factory_Design_Pattern_Introduction/1.0.0": {
+        "runtime": {
+          "Factory_Design_Pattern_Introduction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Factory_Design_Pattern_Introduction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

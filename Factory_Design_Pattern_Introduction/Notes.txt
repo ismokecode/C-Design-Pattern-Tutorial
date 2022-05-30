@@ -1,0 +1,10 @@
+﻿=>	Business requirement:
+		Calculating bonus and hourly pay based on employee type
+		Regular employee bonus = 500; Hourly Pay = 1000;
+		Contract employee bonus = 200; Hourly Pay = 400;
+
+=>	Folder structure
+	Managers : Manage business logics (contain Interface and class which implements interface)
+	Factory : Take care what to be return or business level object creation help of interface)
+
+=>	
