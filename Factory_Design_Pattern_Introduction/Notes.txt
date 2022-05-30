@@ -4,7 +4,7 @@
 		Contract employee bonus = 200; Hourly Pay = 400;
 
 =>	Folder structure
-	Managers : Manage business logics (contain Interface and class which implements interface)
-	Factory : Take care what to be return or business level object creation help of interface)
+	Managers : Manage business mehods (contain Interface and class which implements interface)
+	Factory : Manage condition and help and return object interface based on condition.
 
 =>	
