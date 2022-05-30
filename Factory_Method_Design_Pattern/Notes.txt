@@ -1,0 +1,29 @@
+﻿=>	Simple Factory:
+	=>	Business requirement:
+		Calculating bonus and hourly pay based on employee type
+		Regular employee bonus = 500; Hourly Pay = 1000;
+		Contract employee bonus = 200; Hourly Pay = 400;
+
+=>	Folder structure
+	Managers : Manage business logics (contain Interface and class which implements interface)
+	Factory : Take care what to be return or business level object creation help of interface)
+*******
+
+=>	Simple Factory:
+		Client -> Factory -> Product
+=> Factory Method Pattern:
+		Client -> Abstract factory creator -> Concrete Creator Product A => Product
+											  Concrete Creator Product B => Product
+Here Factory is replaced with Abstract factory creator responsible to create concrete product A and concrete product B 
+to access the Product.
+
+=>	Business requirement:
+		1. Calculating bonus and hourly pay based on employee type (achieved through Simple Factory)
+		Regular employee bonus = 500; Hourly Pay = 1000;
+		Contract employee bonus = 200; Hourly Pay = 400;
+		2. Differentiate Regular Employee Home allowance and Contract Employee have Medicle Allowance
+=> SOLUTION:
+	So house allowance only for Permanent Employee and Medicle allowance is only for Contract employee
+	So we're not going to write these 2 methods in interface level
+*******
+
