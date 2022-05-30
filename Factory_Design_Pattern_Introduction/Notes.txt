@@ -1,10 +1,11 @@
-﻿=>	Business requirement:
+=>	Simple Factory:
+	=>	Business requirement:
 		Calculating bonus and hourly pay based on employee type
 		Regular employee bonus = 500; Hourly Pay = 1000;
 		Contract employee bonus = 200; Hourly Pay = 400;
 
 =>	Folder structure
-	Managers : Manage business mehods (contain Interface and class which implements interface)
-	Factory : Manage condition and help and return object interface based on condition.
-
-=>	
+	Managers : Manage business logics (contain Interface and class which implements interface)
+				Contains Iterface and implementation and return object and value.
+	
+	Factory : Contain condition based on condition creates interface and return to front end.  
